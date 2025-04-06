@@ -21,5 +21,5 @@ if __name__ == "__main__":
         num = ler_ultimo_numero()
         if num is not None:
             resultado = dobrar_numero(num)
-            print(f"O quadrado do dobro do último número {num} é {resultado}")
+            print(f"O dobro do último número {num} é {resultado}")
             time.sleep(1)
